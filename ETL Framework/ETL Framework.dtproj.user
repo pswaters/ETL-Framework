@@ -4,7 +4,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <ServerName>ADKIN2</ServerName>
+        <ServerName>(local)\Samples</ServerName>
         <PathOnServer>/SSISDB/ETL Framework/Main</PathOnServer>
         <UserIDs />
         <UserPasswords />

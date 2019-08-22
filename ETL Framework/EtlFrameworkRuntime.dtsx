@@ -1,20 +1,20 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="10/27/2012 10:11:49 PM"
-  DTS:CreationName="SSIS.Package.3"
+  DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="CA1-THINK"
   DTS:CreatorName="CA1-THINK\CA1"
   DTS:DTSID="{BD7258E6-8A3B-4714-8DBB-C752ACB96FB0}"
-  DTS:ExecutableType="SSIS.Package.3"
-  DTS:LastModifiedProductVersion="11.0.5583.0"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.1100.123"
   DTS:LocaleID="2057"
   DTS:ObjectName="EtlFrameworkRuntime"
   DTS:PackageType="5"
   DTS:VersionBuild="103"
-  DTS:VersionGUID="{FC3A5E9A-1E66-4B4A-996B-B1A3923E2450}">
+  DTS:VersionGUID="{D453941E-B8E3-4A72-AF0D-98B3270DD83B}">
   <DTS:Property
-    DTS:Name="PackageFormatVersion">6</DTS:Property>
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -802,7 +802,7 @@
           DTS:LocaleID="-1"
           DTS:ObjectName="FOR_ExecutionPackage">
           <DTS:ForEachEnumerator
-            DTS:CreationName="Microsoft.SqlServer.Dts.Runtime.Enumerators.ADO.ForEachADOEnumerator, Microsoft.SqlServer.ForEachADOEnumerator, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+            DTS:CreationName="Microsoft.ForEachADOEnumerator"
             DTS:DTSID="{EBA352FF-5DE4-42BC-8EE5-7AE332E9B7BB}"
             DTS:ObjectName="{EBA352FF-5DE4-42BC-8EE5-7AE332E9B7BB}">
             <DTS:ObjectData>
@@ -815,11 +815,11 @@
           <DTS:Executables>
             <DTS:Executable
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH1"
-              DTS:CreationName="SSIS.ExecutePackageTask.3"
+              DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
               DTS:DisableEventHandlers="True"
               DTS:DTSID="{A1C03F2E-F8B2-48C2-853D-739EA9AA0AB6}"
-              DTS:ExecutableType="SSIS.ExecutePackageTask.3"
+              DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
               DTS:ObjectName="EPT_PackageExecutionFactory CH1"
               DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -877,11 +877,11 @@
             </DTS:Executable>
             <DTS:Executable
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH2"
-              DTS:CreationName="SSIS.ExecutePackageTask.3"
+              DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
               DTS:DisableEventHandlers="True"
               DTS:DTSID="{a8f39eb8-2fe1-41e4-ac4b-f55134e9bc94}"
-              DTS:ExecutableType="SSIS.ExecutePackageTask.3"
+              DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
               DTS:ObjectName="EPT_PackageExecutionFactory CH2"
               DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -937,11 +937,11 @@
             </DTS:Executable>
             <DTS:Executable
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH3"
-              DTS:CreationName="SSIS.ExecutePackageTask.3"
+              DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
               DTS:DisableEventHandlers="True"
               DTS:DTSID="{22096343-69df-4381-8b94-f9db4e2a9423}"
-              DTS:ExecutableType="SSIS.ExecutePackageTask.3"
+              DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
               DTS:ObjectName="EPT_PackageExecutionFactory CH3"
               DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -1001,11 +1001,11 @@
             </DTS:Executable>
             <DTS:Executable
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH4"
-              DTS:CreationName="SSIS.ExecutePackageTask.3"
+              DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
               DTS:DisableEventHandlers="True"
               DTS:DTSID="{7dc9d2fb-52ef-4c7e-ae78-3d4c86759094}"
-              DTS:ExecutableType="SSIS.ExecutePackageTask.3"
+              DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
               DTS:ObjectName="EPT_PackageExecutionFactory CH4"
               DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -1065,11 +1065,11 @@
             </DTS:Executable>
             <DTS:Executable
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH5"
-              DTS:CreationName="SSIS.ExecutePackageTask.3"
+              DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
               DTS:DisableEventHandlers="True"
               DTS:DTSID="{5cbfe68a-6ca1-4514-a1cd-54a650f4e334}"
-              DTS:ExecutableType="SSIS.ExecutePackageTask.3"
+              DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
               DTS:ObjectName="EPT_PackageExecutionFactory CH5"
               DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -1129,11 +1129,11 @@
             </DTS:Executable>
             <DTS:Executable
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH6"
-              DTS:CreationName="SSIS.ExecutePackageTask.3"
+              DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
               DTS:DisableEventHandlers="True"
               DTS:DTSID="{cfebdf34-ade7-4ea2-a400-8493d6d40d92}"
-              DTS:ExecutableType="SSIS.ExecutePackageTask.3"
+              DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
               DTS:ObjectName="EPT_PackageExecutionFactory CH6"
               DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -1193,11 +1193,11 @@
             </DTS:Executable>
             <DTS:Executable
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH7"
-              DTS:CreationName="SSIS.ExecutePackageTask.3"
+              DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
               DTS:DisableEventHandlers="True"
               DTS:DTSID="{727ef08d-dfd8-4bd6-becb-49ee52e38e24}"
-              DTS:ExecutableType="SSIS.ExecutePackageTask.3"
+              DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
               DTS:ObjectName="EPT_PackageExecutionFactory CH7"
               DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -1257,11 +1257,11 @@
             </DTS:Executable>
             <DTS:Executable
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH8"
-              DTS:CreationName="SSIS.ExecutePackageTask.3"
+              DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
               DTS:DisableEventHandlers="True"
               DTS:DTSID="{f324f94b-a533-45a0-ab62-6adcb1364c39}"
-              DTS:ExecutableType="SSIS.ExecutePackageTask.3"
+              DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
               DTS:ObjectName="EPT_PackageExecutionFactory CH8"
               DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -1717,11 +1717,11 @@
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\SQL_GetChildPackageDetails"
-      DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DisableEventHandlers="True"
       DTS:DTSID="{BAFDFCFE-F015-40DD-8274-EA30F98AD0BB}"
-      DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="SQL_GetChildPackageDetails"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2012; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
@@ -1740,11 +1740,11 @@
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\SQL_GetExecutionId"
-      DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DisableEventHandlers="True"
       DTS:DTSID="{454BA5DA-EA26-493B-85C4-1ADBCB56AE8F}"
-      DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="SQL_GetExecutionId"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2012; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
@@ -1789,11 +1789,11 @@
     </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\SQL_GetJobId"
-      DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DisableEventHandlers="True"
       DTS:DTSID="{47CFCF23-52B5-4F13-879A-4A77F87A06C3}"
-      DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="SQL_GetJobId"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2012; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
@@ -1866,10 +1866,10 @@
       <DTS:Executables>
         <DTS:Executable
           DTS:refId="Package.EventHandlers[OnError]\SQL_JobCompletedWithError"
-          DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
           DTS:DTSID="{72569934-48E7-4A6D-8D03-EA48AFB42EF4}"
-          DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="SQL_JobCompletedWithError"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2012; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -1935,10 +1935,10 @@
       <DTS:Executables>
         <DTS:Executable
           DTS:refId="Package.EventHandlers[OnPostExecute]\SQL_JobCompleted"
-          DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
           DTS:DTSID="{1e74db59-f447-41f8-a9bc-1d26f929c793}"
-          DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="SQL_JobCompleted"
           DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2012; © 2007 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
@@ -1970,7 +1970,7 @@
 <!--If you manually edit this section and make a mistake, you can delete it. -->
 <!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
-  Version="sql11">
+  Version="8">
   <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
