@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="EtlFrameworkRuntime"
   DTS:PackageType="5"
-  DTS:VersionBuild="104"
-  DTS:VersionGUID="{F4B5F851-0ED4-408A-B6DC-80A836CF831A}">
+  DTS:VersionBuild="106"
+  DTS:VersionGUID="{AA61AD4D-E1BD-4516-9CCD-A4F61B7DDB0C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -1730,11 +1730,17 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{D69E1AA2-90CF-4E6B-AB73-EF676E6C34A1}"
-          SQLTask:SqlStatementSource="SELECT [PackageName_Channel1]&#xA;              ,[PackageId_Channel1]&#xA;              ,[IntParameter_Channel1]&#xA;              ,[VarcharParameter_Channel1]&#xA;              ,[Project_Channel1]&#xA;              ,[Folder_Channel1]&#xA;              ,[Use32BitRunTime_Channel1]&#xA;              ,[CatalogLoggingLevel_Channel1]&#xA;              ,[PackageName_Channel2]&#xA;              ,[PackageId_Channel2]&#xA;              ,[IntParameter_Channel2]&#xA;              ,[VarcharParameter_Channel2]&#xA;              ,[Project_Channel2]&#xA;              ,[Folder_Channel2]&#xA;              ,[Use32BitRunTime_Channel2]&#xA;              ,[CatalogLoggingLevel_Channel2]&#xA;              ,[PackageName_Channel3]&#xA;              ,[PackageId_Channel3]&#xA;              ,[IntParameter_Channel3]&#xA;              ,[VarcharParameter_Channel3]&#xA;              ,[Project_Channel3]&#xA;              ,[Folder_Channel3]&#xA;              ,[Use32BitRunTime_Channel3]&#xA;              ,[CatalogLoggingLevel_Channel3]&#xA;              ,[PackageName_Channel4]&#xA;              ,[PackageId_Channel4]&#xA;              ,[IntParameter_Channel4]&#xA;              ,[VarcharParameter_Channel4]&#xA;              ,[Project_Channel4]&#xA;              ,[Folder_Channel4]&#xA;              ,[Use32BitRunTime_Channel4]&#xA;              ,[CatalogLoggingLevel_Channel4]&#xA;              ,[PackageName_Channel5]&#xA;              ,[PackageId_Channel5]&#xA;              ,[IntParameter_Channel5]&#xA;              ,[VarcharParameter_Channel5]&#xA;              ,[Project_Channel5]&#xA;              ,[Folder_Channel5]&#xA;              ,[Use32BitRunTime_Channel5]&#xA;              ,[CatalogLoggingLevel_Channel5]&#xA;              ,[PackageName_Channel6]&#xA;              ,[PackageId_Channel6]&#xA;              ,[IntParameter_Channel6]&#xA;              ,[VarcharParameter_Channel6]&#xA;              ,[Project_Channel6]&#xA;              ,[Folder_Channel6]&#xA;              ,[Use32BitRunTime_Channel6]&#xA;              ,[CatalogLoggingLevel_Channel6]&#xA;              ,[PackageName_Channel7]&#xA;              ,[PackageId_Channel7]&#xA;              ,[IntParameter_Channel7]&#xA;              ,[VarcharParameter_Channel7]&#xA;              ,[Project_Channel7]&#xA;              ,[Folder_Channel7]&#xA;              ,[Use32BitRunTime_Channel7]&#xA;              ,[CatalogLoggingLevel_Channel7]&#xA;              ,[PackageName_Channel8]&#xA;              ,[PackageId_Channel8]&#xA;              ,[IntParameter_Channel8]&#xA;              ,[VarcharParameter_Channel8]&#xA;              ,[Project_Channel8]&#xA;              ,[Folder_Channel8]&#xA;              ,[Use32BitRunTime_Channel8]&#xA;              ,[CatalogLoggingLevel_Channel8]&#xA;              ,[ExecutionOrder]&#xA;  FROM [dbo].[JobSchedulePackage]&#xA; WHERE JobName = 'Test'&#xA;ORDER BY ExecutionOrder"
+          SQLTask:SqlStatementSource="SELECT [PackageName_Channel1]&#xA;              ,[PackageId_Channel1]&#xA;              ,[IntParameter_Channel1]&#xA;              ,[VarcharParameter_Channel1]&#xA;              ,[Project_Channel1]&#xA;              ,[Folder_Channel1]&#xA;              ,[Use32BitRunTime_Channel1]&#xA;              ,[CatalogLoggingLevel_Channel1]&#xA;              ,[PackageName_Channel2]&#xA;              ,[PackageId_Channel2]&#xA;              ,[IntParameter_Channel2]&#xA;              ,[VarcharParameter_Channel2]&#xA;              ,[Project_Channel2]&#xA;              ,[Folder_Channel2]&#xA;              ,[Use32BitRunTime_Channel2]&#xA;              ,[CatalogLoggingLevel_Channel2]&#xA;              ,[PackageName_Channel3]&#xA;              ,[PackageId_Channel3]&#xA;              ,[IntParameter_Channel3]&#xA;              ,[VarcharParameter_Channel3]&#xA;              ,[Project_Channel3]&#xA;              ,[Folder_Channel3]&#xA;              ,[Use32BitRunTime_Channel3]&#xA;              ,[CatalogLoggingLevel_Channel3]&#xA;              ,[PackageName_Channel4]&#xA;              ,[PackageId_Channel4]&#xA;              ,[IntParameter_Channel4]&#xA;              ,[VarcharParameter_Channel4]&#xA;              ,[Project_Channel4]&#xA;              ,[Folder_Channel4]&#xA;              ,[Use32BitRunTime_Channel4]&#xA;              ,[CatalogLoggingLevel_Channel4]&#xA;              ,[PackageName_Channel5]&#xA;              ,[PackageId_Channel5]&#xA;              ,[IntParameter_Channel5]&#xA;              ,[VarcharParameter_Channel5]&#xA;              ,[Project_Channel5]&#xA;              ,[Folder_Channel5]&#xA;              ,[Use32BitRunTime_Channel5]&#xA;              ,[CatalogLoggingLevel_Channel5]&#xA;              ,[PackageName_Channel6]&#xA;              ,[PackageId_Channel6]&#xA;              ,[IntParameter_Channel6]&#xA;              ,[VarcharParameter_Channel6]&#xA;              ,[Project_Channel6]&#xA;              ,[Folder_Channel6]&#xA;              ,[Use32BitRunTime_Channel6]&#xA;              ,[CatalogLoggingLevel_Channel6]&#xA;              ,[PackageName_Channel7]&#xA;              ,[PackageId_Channel7]&#xA;              ,[IntParameter_Channel7]&#xA;              ,[VarcharParameter_Channel7]&#xA;              ,[Project_Channel7]&#xA;              ,[Folder_Channel7]&#xA;              ,[Use32BitRunTime_Channel7]&#xA;              ,[CatalogLoggingLevel_Channel7]&#xA;              ,[PackageName_Channel8]&#xA;              ,[PackageId_Channel8]&#xA;              ,[IntParameter_Channel8]&#xA;              ,[VarcharParameter_Channel8]&#xA;              ,[Project_Channel8]&#xA;              ,[Folder_Channel8]&#xA;              ,[Use32BitRunTime_Channel8]&#xA;              ,[CatalogLoggingLevel_Channel8]&#xA;              ,[ExecutionOrder]&#xA;  FROM [dbo].[JobSchedulePackage]&#xA; WHERE JobName = ?&#xA;ORDER BY ExecutionOrder"
           SQLTask:ResultType="ResultSetType_Rowset" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="0"
             SQLTask:DtsVariableName="User::PackagesToRun" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="$Package::JobName"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="129"
+            SQLTask:ParameterSize="-1" />
         </SQLTask:SqlTaskData>
       </DTS:ObjectData>
     </DTS:Executable>
@@ -2041,14 +2047,14 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60.0000000000001"
+              EndConnector="0,60"
               Start="0,0"
-              End="0,52.5000000000001">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5000000000001" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
