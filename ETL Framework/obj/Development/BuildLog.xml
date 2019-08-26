@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>ETL Framework</Name>
-    <LastWriteTime>2019-08-26T13:52:19.4827745Z</LastWriteTime>
+    <LastWriteTime>2019-08-26T14:47:46.3720764Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -18,7 +18,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>EtlPackageExecutionFactory.dtsx</Name>
-      <LastWriteTime>2019-08-26T14:31:21.5975687Z</LastWriteTime>
+      <LastWriteTime>2019-08-26T14:47:46.3480765Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
