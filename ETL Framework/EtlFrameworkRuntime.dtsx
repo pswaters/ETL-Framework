@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="10/27/2012 10:11:49 PM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="EtlFrameworkRuntime"
   DTS:PackageType="5"
-  DTS:VersionBuild="103"
-  DTS:VersionGUID="{D453941E-B8E3-4A72-AF0D-98B3270DD83B}">
+  DTS:VersionBuild="104"
+  DTS:VersionGUID="{F4B5F851-0ED4-408A-B6DC-80A836CF831A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -32,7 +32,7 @@
       DTS:ObjectName="JobName">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">Test</DTS:Property>
+        DTS:Name="ParameterValue">Example Job</DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
   <DTS:Variables>

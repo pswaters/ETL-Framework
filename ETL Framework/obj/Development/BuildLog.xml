@@ -2,23 +2,23 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>ETL Framework</Name>
-    <LastWriteTime>2015-04-27T20:48:44.6190966Z</LastWriteTime>
+    <LastWriteTime>2019-08-26T13:52:19.4827745Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>EtlFrameworkRuntime.dtsx</Name>
-      <LastWriteTime>2015-10-15T22:42:45.4398302Z</LastWriteTime>
+      <LastWriteTime>2019-08-26T13:52:09.6122459Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>TaskPackageTemplate.dtsx</Name>
-      <LastWriteTime>2015-10-15T22:43:18.7094835Z</LastWriteTime>
+      <LastWriteTime>2019-08-22T19:08:31.1451705Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>EtlPackageExecutionFactory.dtsx</Name>
-      <LastWriteTime>2015-10-15T22:40:35.6901043Z</LastWriteTime>
+      <LastWriteTime>2019-08-22T19:08:27.4314088Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
