@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="EtlPackageExecutionFactory"
   DTS:PackageType="5"
-  DTS:VersionBuild="81"
-  DTS:VersionGUID="{326180A5-A6FF-4BCC-B8A4-62B31D980D11}">
+  DTS:VersionBuild="82"
+  DTS:VersionGUID="{CF8A0C5A-72E6-46E6-B094-A90506EA1F3B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -564,13 +564,13 @@
               SQLTask:SqlStatementSource="EXEC [SSISDB].[catalog].[create_execution]  ?, ?, ?, NULL, ?, ? OUTPUT" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
               <SQLTask:ParameterBinding
                 SQLTask:ParameterName="0"
-                SQLTask:DtsVariableName="$Package::Project"
+                SQLTask:DtsVariableName="$Package::Folder"
                 SQLTask:ParameterDirection="Input"
                 SQLTask:DataType="130"
                 SQLTask:ParameterSize="-1" />
               <SQLTask:ParameterBinding
                 SQLTask:ParameterName="1"
-                SQLTask:DtsVariableName="$Package::Folder"
+                SQLTask:DtsVariableName="$Package::Project"
                 SQLTask:ParameterDirection="Input"
                 SQLTask:DataType="130"
                 SQLTask:ParameterSize="-1" />
