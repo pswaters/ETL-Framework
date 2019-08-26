@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="EtlFrameworkRuntime"
   DTS:PackageType="5"
-  DTS:VersionBuild="106"
-  DTS:VersionGUID="{AA61AD4D-E1BD-4516-9CCD-A4F61B7DDB0C}">
+  DTS:VersionBuild="107"
+  DTS:VersionGUID="{613421B4-C07D-47C7-9118-1D9C668392EC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -817,7 +817,6 @@
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH1"
               DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
-              DTS:DisableEventHandlers="True"
               DTS:DTSID="{A1C03F2E-F8B2-48C2-853D-739EA9AA0AB6}"
               DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
@@ -879,7 +878,6 @@
               DTS:refId="Package\SEQ_ExecutionFactory\FOR_ExecutionPackage\EPT_PackageExecutionFactory CH2"
               DTS:CreationName="Microsoft.ExecutePackageTask"
               DTS:Description="Execute Package Task"
-              DTS:DisableEventHandlers="True"
               DTS:DTSID="{a8f39eb8-2fe1-41e4-ac4b-f55134e9bc94}"
               DTS:ExecutableType="Microsoft.ExecutePackageTask"
               DTS:LocaleID="-1"
